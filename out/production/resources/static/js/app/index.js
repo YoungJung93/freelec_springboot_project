@@ -6,7 +6,6 @@ var main = {
         });
     },
     save : function () {
-        console.log('main.save() 호출');
         var data = {
             title: $('#title').val(),
             author: $('#author').val(),
